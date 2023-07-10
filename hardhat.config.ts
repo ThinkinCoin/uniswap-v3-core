@@ -44,6 +44,9 @@ export default {
     bnb: {
       url: `https://bsc-dataseed.binance.org/`,
     },
+    harmony: {
+      url: `https://api.harmony.one`,
+    },
   },
   etherscan: {
     // Your API key for Etherscan
