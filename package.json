@@ -1,6 +1,6 @@
 {
   "name": "@thinkincoin-libs/uniswap-v3-core",
-  "description": "🦄 Core smart contracts of Uniswap V3",
+  "description": " Core smart contracts of Uniswap V3",
   "license": "BUSL-1.1",
   "publishConfig": {
     "access": "public"
