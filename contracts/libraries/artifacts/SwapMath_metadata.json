@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "Computes the result of a swap within ticks",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Contains methods for computing the result of a swap within a single tick price range, i.e., a single tick.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/SwapMath.sol": "SwapMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 500
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/FixedPoint96.sol": {
+			"keccak256": "0xa32f3be89d31e1641fc6fe7d0fca23412e2c49156e5e98ed8aa7673a0cac96c8",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://89a87db593c07d1099f7d24548925f96e7f5203da78a30ac591b7ea3a2d219dd",
+				"dweb:/ipfs/QmS7n2iZaC16H2nBsjw7EwtAtoWwDinGGgrYS3SDPm3MNo"
+			]
+		},
+		"contracts/libraries/FullMath.sol": {
+			"keccak256": "0xc958aae9a1e79aeee6116c59e1554312d142b426c13c8d9cf875b139798b5d6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://682b72dfc38a7fbf176d175453b4c7c2539ade82558e5f56243657ab3a047182",
+				"dweb:/ipfs/QmcMZpsMnPbWFfK4joJ2TfLEd6xwsFiYeGBxASeGN7ShbY"
+			]
+		},
+		"contracts/libraries/LowGasSafeMath.sol": {
+			"keccak256": "0xace198277a90cabd10817b1226718204a297e3ff70a9937b6a4bea60e7978e1f",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://e5a79a038cd3b2d5475d2a6ff5d46f28e0d65d1c2cce085d8bf100d7e026a9fa",
+				"dweb:/ipfs/QmVDAK77ydqRK74AFV14Z5uEtdoZoKvQNyh2z4C2RNFf7V"
+			]
+		},
+		"contracts/libraries/SafeCast.sol": {
+			"keccak256": "0x2ce167ecfd192faccc43e6ab3eadf5dcaa4b57bc53215abea354e55b9149bd08",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://7b2699166ead0922ec7ef5c15aa0f931d9211e98f5d23408e5565a1539c7fd13",
+				"dweb:/ipfs/QmURByWGxXgSydaC5KdkCyef8twwZRMTAS1WQv2uJBoAL6"
+			]
+		},
+		"contracts/libraries/SqrtPriceMath.sol": {
+			"keccak256": "0xa5eaacc7a140140a73bb3d57524f4f709e38af048fc16a20d62cd7d71323261e",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://1205b941f23cd628387e46f5bb6c807beff3c92bd2da6b4dbef2ba5e547e9aa5",
+				"dweb:/ipfs/Qmam6rLqpDnyuSGWSFuRfPSKietbsH8B7mQCtJbbyB5Hwy"
+			]
+		},
+		"contracts/libraries/SwapMath.sol": {
+			"keccak256": "0xaf0c258b9f5d1629f1797ad13996f422f303addc1bdb5dc3333ab3f352f306b1",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://d7a3b8d7d38ed7b7a8d7541ff4e0c78c7230c49f31a9a21eb1b5974adf80fa81",
+				"dweb:/ipfs/QmXvjE4AjfYGVqRpgrGj1sgJWdjfo8mhrTnNK9fwrDYP77"
+			]
+		},
+		"contracts/libraries/UnsafeMath.sol": {
+			"keccak256": "0x3c829e89e91323d9c3e0f15272baa9aa1d28291e7633ee4f1414774e6eca0a7d",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://f99f38de11092e98d43f1d14061fcfa7309a80ae93d2b7af99c9256c97312c23",
+				"dweb:/ipfs/QmQXXUR1PhKUFVZXwwekW23YE9Zy7r3GvdtcDyc2nNTpSb"
+			]
+		}
+	},
+	"version": 1
+}

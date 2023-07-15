@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Positions store additional state for tracking fees owed to the position",
+			"kind": "dev",
+			"methods": {},
+			"title": "Position",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Positions represent an owner address' liquidity between a lower and upper tick boundary",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/Position.sol": "Position"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 500
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/FixedPoint128.sol": {
+			"keccak256": "0x558d30194d1a7f76eb5e983633625efd87b13ac0862792a69a305ce69003ab14",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://89bca54921a13c0c863c055f18b3108582491fcc091d7188b58e05786c7f2b55",
+				"dweb:/ipfs/QmfS5jM1WxULWx4FNB3CJC7KAWDpMpzRgFSGV5dp8RaCJr"
+			]
+		},
+		"contracts/libraries/FullMath.sol": {
+			"keccak256": "0xc958aae9a1e79aeee6116c59e1554312d142b426c13c8d9cf875b139798b5d6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://682b72dfc38a7fbf176d175453b4c7c2539ade82558e5f56243657ab3a047182",
+				"dweb:/ipfs/QmcMZpsMnPbWFfK4joJ2TfLEd6xwsFiYeGBxASeGN7ShbY"
+			]
+		},
+		"contracts/libraries/LiquidityMath.sol": {
+			"keccak256": "0x3ec938fd1b7cc8751df9e2ed90fd0abf32ffacc42cf4b6edbf7138629d747944",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://a741475c8a3b5ae8eac7d328170c5a6811920dac22d3800197e39abe0ba42e01",
+				"dweb:/ipfs/Qmc2fs5kxp437hWxtLZ6CB8g7vt3bkwKLxE7MMo9D5TAF9"
+			]
+		},
+		"contracts/libraries/Position.sol": {
+			"keccak256": "0xa9ae8ef4cd45226e0fd91b69a8cd7bad1f4a79a6ebd03ba75571e89a149006c2",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://5dd74ce31d37a6160eb000ba01b54cf8469ef18b1fa28542241b5c80196ab78f",
+				"dweb:/ipfs/QmdDHCYpCwqF27vFG9BmaeKYiQ6otrcc9D6CWNeL2fjNF3"
+			]
+		}
+	},
+	"version": 1
+}

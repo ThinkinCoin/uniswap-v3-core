@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "FixedPoint128",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "A library for handling binary fixed point numbers, see https://en.wikipedia.org/wiki/Q_(number_format)",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/FixedPoint128.sol": "FixedPoint128"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 500
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/FixedPoint128.sol": {
+			"keccak256": "0x558d30194d1a7f76eb5e983633625efd87b13ac0862792a69a305ce69003ab14",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://89bca54921a13c0c863c055f18b3108582491fcc091d7188b58e05786c7f2b55",
+				"dweb:/ipfs/QmfS5jM1WxULWx4FNB3CJC7KAWDpMpzRgFSGV5dp8RaCJr"
+			]
+		}
+	},
+	"version": 1
+}

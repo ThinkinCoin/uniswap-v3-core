@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount0Owed",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1Owed",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "uniswapV3MintCallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"uniswapV3MintCallback(uint256,uint256,bytes)": {
+					"details": "In the implementation you must pay the pool tokens owed for the minted liquidity. The caller of this method must be checked to be a UniswapV3Pool deployed by the canonical UniswapV3Factory.",
+					"params": {
+						"amount0Owed": "The amount of token0 due to the pool for the minted liquidity",
+						"amount1Owed": "The amount of token1 due to the pool for the minted liquidity",
+						"data": "Any data passed through by the caller via the IUniswapV3PoolActions#mint call"
+					}
+				}
+			},
+			"title": "Callback for IUniswapV3PoolActions#mint",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"uniswapV3MintCallback(uint256,uint256,bytes)": {
+					"notice": "Called to `msg.sender` after minting liquidity to a position from IUniswapV3Pool#mint."
+				}
+			},
+			"notice": "Any contract that calls IUniswapV3PoolActions#mint must implement this interface",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UniswapV3PoolDeployer_flattened.sol": "IUniswapV3MintCallback"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UniswapV3PoolDeployer_flattened.sol": {
+			"keccak256": "0x199a374d0d1e6d0aaab4dee2577e0cb0ca4f4c03712d1808eea54d47d40bcd3e",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://43f7265517ba96861ad87449401b631c5971f8217d750b6a569b1502001924df",
+				"dweb:/ipfs/QmagtJ76dsDDGb1j9pWMfeR9K8HerQ4qPa14NNhp6A8U7x"
+			]
+		}
+	},
+	"version": 1
+}
