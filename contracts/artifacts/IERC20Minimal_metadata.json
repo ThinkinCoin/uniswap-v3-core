@@ -277,7 +277,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/UniswapV3PoolDeployer_flattened.sol": "IERC20Minimal"
+			"contracts/UniswapV3Factory_flattened.sol": "IERC20Minimal"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -286,17 +286,16 @@
 		},
 		"optimizer": {
 			"enabled": true,
-			"runs": 2000
+			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"contracts/UniswapV3PoolDeployer_flattened.sol": {
-			"keccak256": "0x199a374d0d1e6d0aaab4dee2577e0cb0ca4f4c03712d1808eea54d47d40bcd3e",
-			"license": "BUSL-1.1",
+		"contracts/UniswapV3Factory_flattened.sol": {
+			"keccak256": "0xd79b13d16d2c2e6de9b3ecb29cd1d85e76845e6801f9fff002f5cb43bc5226a2",
 			"urls": [
-				"bzz-raw://43f7265517ba96861ad87449401b631c5971f8217d750b6a569b1502001924df",
-				"dweb:/ipfs/QmagtJ76dsDDGb1j9pWMfeR9K8HerQ4qPa14NNhp6A8U7x"
+				"bzz-raw://5551132fbab448acec3a5bd64685a910ca38ebc3d5d3c62b746c8760ba6a8739",
+				"dweb:/ipfs/Qme5MZn5GQHZHSbQwnPXxhkHooKmhM84HYckCChZ6Loa7P"
 			]
 		}
 	},
