@@ -339,7 +339,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/UniswapV3Factory_flattened.sol": "IUniswapV3PoolActions"
+			"contracts/UniswapV3Pool_flat.sol": "IUniswapV3PoolActions"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -353,11 +353,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/UniswapV3Factory_flattened.sol": {
-			"keccak256": "0xd79b13d16d2c2e6de9b3ecb29cd1d85e76845e6801f9fff002f5cb43bc5226a2",
+		"contracts/UniswapV3Pool_flat.sol": {
+			"keccak256": "0xa8b24d402b4ec1eec3fe39adad3cd909c66d4f97d53292f4761e5423a9589d00",
+			"license": "BUSL-1.1",
 			"urls": [
-				"bzz-raw://5551132fbab448acec3a5bd64685a910ca38ebc3d5d3c62b746c8760ba6a8739",
-				"dweb:/ipfs/Qme5MZn5GQHZHSbQwnPXxhkHooKmhM84HYckCChZ6Loa7P"
+				"bzz-raw://65b92f23f0aa1c3ccda4fa610f2b9e31adabb396884b02bbae10389a79026581",
+				"dweb:/ipfs/QmWDQjvRJksnqd9Ngvi86xi7uXZD2GP6u4rre12uUcpDJN"
 			]
 		}
 	},
